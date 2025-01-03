@@ -1,7 +1,6 @@
 import './App.css';
 import Routes from './Routes';
 import AgeCalculater from './AgeCalculater'
-import LineChartWithReferenceLines from './Graph'
 
 function App() {
   return (
@@ -21,8 +20,7 @@ function App() {
         </a> */}
 
         {/* <Routes /> */}
-   <LineChartWithReferenceLines/>
-   {/* <AgeCalculater/> */}
+   <AgeCalculater/>
       </header>
     </div>
   );
